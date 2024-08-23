@@ -35,5 +35,36 @@ from networksecurity.entity.config_entity import (
 
 
 
+class Training_Pipeline:
+    def __init__(self):
+        pass
+
+    def start_data_validation(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+        
+    def start_data_transformation(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+    def start_model_model_trainer(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+    def start_model_pusher(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+    def run_pipeine(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+    
 
 
